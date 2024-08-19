@@ -38,7 +38,7 @@ const Navbar = ({
     <>
       <div
         className={cn(
-          " hidden w-full items-center justify-between py-7 md:flex backdrop-filter backdrop-blur-lg bg-opacity-30",
+          "sticky top-0 hidden w-full items-center justify-between py-7 md:flex backdrop-filter backdrop-blur-sm bg-opacity-30 z-50",
           className,
         )}
       >
@@ -81,7 +81,7 @@ const Navbar = ({
 
       <div
         className={cn(
-          "flex w-full items-center justify-between px-8 py-7 md:hidden backdrop-filter backdrop-blur-lg bg-opacity-30",
+          "sticky top-0 flex w-full items-center justify-between px-8 py-7 md:hidden backdrop-filter backdrop-blur-sm bg-opacity-30 z-50",
           className,
         )}
       >
